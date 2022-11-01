@@ -1,9 +1,9 @@
 let localPeer;
 let remotePeer;
 let localStream
-const startButton = querySelector('button#startButton')
-const sendButton = querySelector('button#callButton')
-const closeButton = querySelector('button#hangupButton')
+const startButton = document.querySelector('button#startButton')
+const sendButton = document.querySelector('button#callButton')
+const closeButton = document.querySelector('button#hangupButton')
 startButton.onclick = start
 sendButton.onclick = call
 closeButton.onclick = close
